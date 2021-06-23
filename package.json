@@ -1,0 +1,28 @@
+{
+  "name": "vite-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuitl/vite-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuitl/vite-start/issues"
+  },
+  "homepage": "https://github.com/cuitl/vite-start#readme",
+  "devDependencies": {
+    "vite": "^2.3.8",
+    "vite-plugin-vue2": "^1.6.2"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.12",
+    "vue": "^2.6.14"
+  }
+}
