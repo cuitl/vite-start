@@ -1,8 +1,8 @@
 <template>
-<main>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
-</main>
+  <main>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Hello Vue 3 + Vite" />
+  </main>
 </template>
 
 <script>
@@ -10,10 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   components: {
-    HelloWorld 
+    HelloWorld
   }
-};
-
+}
 </script>
 
 <style>
