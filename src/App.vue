@@ -1,17 +1,12 @@
 <template>
-  <main>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite" />
-  </main>
+  <div id="app">
+    <RouterView />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
 
